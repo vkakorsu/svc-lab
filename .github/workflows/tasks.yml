@@ -22,6 +22,6 @@ jobs:
           TARGET: ${{ vars.TARGET }}
           SID: ${{ vars.SID }}
           DURATION_MIN: "25"
-          CONC: "8"
-          HOLD: "400"
+          CONC: "10"
+          HOLD: "500"
         run: node lib/run_all.mjs
